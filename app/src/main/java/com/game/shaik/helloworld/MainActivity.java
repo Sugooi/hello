@@ -69,9 +69,9 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-                edit_cap.setText(no_cap+"");
+               // edit_cap.setText(no_cap+"");
 
-
+asdfsdf
             }
         });
 
