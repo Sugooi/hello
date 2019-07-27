@@ -1,0 +1,136 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+<TableLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+    <TableRow
+        android:layout_margin="30dp"
+        >
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Cappuccino"
+            android:textSize="18sp"
+
+            android:layout_marginRight="30dp"
+            android:textColor="#000"
+            />
+
+
+        <Button
+            android:text="+"
+            android:id="@+id/plus_cap"
+            />
+
+        <EditText
+            android:id="@+id/number_cap"
+            android:layout_width="70dp"
+            />
+
+        <Button
+            android:text="-"
+            android:id="@+id/minus_cap"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_margin="30dp"
+        >
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Tea"
+            android:textSize="18sp"
+
+            android:layout_marginRight="30dp"
+            android:textColor="#000"
+            />
+
+
+        <Button
+            android:text="+"
+            />
+
+        <EditText
+
+            android:layout_width="70dp"
+            />
+
+        <Button
+            android:text="-"
+            />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_margin="30dp"
+        >
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Juice"
+            android:textSize="18sp"
+
+            android:layout_marginRight="30dp"
+            android:textColor="#000"
+            />
+
+
+        <Button
+            android:text="+"
+            />
+
+        <EditText
+
+            android:layout_width="70dp"
+            />
+
+        <Button
+            android:text="-"
+            />
+
+    </TableRow>
+</TableLayout>
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/submit"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="30dp"
+        >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total:"
+        android:textSize="30sp"
+        android:id="@+id/texttotal"
+        />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/total"
+        android:textSize="30sp"
+        android:layout_toRightOf="@id/texttotal"
+        android:text="0"
+        />
+    </RelativeLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="Submit"
+        android:id="@+id/submit"
+        />
+
+</RelativeLayout>
